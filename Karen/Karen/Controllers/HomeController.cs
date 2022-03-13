@@ -1,5 +1,10 @@
 ﻿using Karen.Models;
+using Karen.Models.Entities;
+using Karen.Models.Enums;
+using Karen.Models.Repositories;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -12,10 +17,12 @@ namespace Karen.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private IWebHostEnvironment _webHostEnvironment;
+        private IConfiguration _configuration;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IWebHostEnvironment webHostEnvironment, IConfiguration configuration)
         {
-            _logger = logger;
+            _logger = logger; _webHostEnvironment = webHostEnvironment; _configuration = configuration;
         }
 
         public IActionResult Index()
@@ -23,9 +30,26 @@ namespace Karen.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy(int type = 0)
         {
-            return View();
+            List<Product> item = new List<Product>();
+            if(type == 0)
+            {
+                ProductRepository rep = new ProductRepository(_configuration);
+                item = rep.GetAll();
+                return View(item);
+            }
+            else
+            {
+                ProductRepository rep = new ProductRepository(_configuration);
+                item = rep.GetByType(type);
+                return View(item);
+            }
+           
+            
+            
         }
+       
+            
     }
 }

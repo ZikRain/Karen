@@ -19,6 +19,6 @@ namespace Karen.Models.Repositories
             _db_connection.Close();
             return user;
         }
-        public 
+   
     }
 }

@@ -37,3 +37,258 @@ E:\Projects\Karen\Karen\obj\Debug\net5.0\ref\Karen.dll
 E:\Projects\Karen\Karen\obj\Debug\net5.0\Karen.pdb
 E:\Projects\Karen\Karen\obj\Debug\net5.0\Karen.genruntimeconfig.cache
 E:\Projects\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CopyComplete
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.csproj.AssemblyReference.cache
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.AssemblyInfoInputs.cache
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.AssemblyInfo.cs
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CoreCompileInputs.cache
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorAssemblyInfo.cache
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorAssemblyInfo.cs
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\ref\Karen.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.pdb
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\staticwebassets\Karen.StaticWebAssets.Manifest.cache
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\staticwebassets\Karen.StaticWebAssets.xml
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\scopedcss\bundle\Karen.styles.css
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.input.cache
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.output.cache
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorCoreGenerate.cache
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorTargetAssemblyInfo.cache
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorTargetAssemblyInfo.cs
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\appsettings.json
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Karen.exe
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Karen.deps.json
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Karen.runtimeconfig.json
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Karen.runtimeconfig.dev.json
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Karen.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\ref\Karen.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Karen.pdb
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Karen.Views.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Karen.Views.pdb
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Dapper.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.Views.pdb
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CopyComplete
+C:\Users\despe\Desktop\sdfs\Karen\Karen\Karen\obj\Debug\net5.0\Karen.genruntimeconfig.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.csproj.AssemblyReference.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.AssemblyInfoInputs.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.AssemblyInfo.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CoreCompileInputs.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorAssemblyInfo.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorAssemblyInfo.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\staticwebassets\Karen.StaticWebAssets.Manifest.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\staticwebassets\Karen.StaticWebAssets.xml
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\scopedcss\bundle\Karen.styles.css
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.input.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.output.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorCoreGenerate.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorTargetAssemblyInfo.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorTargetAssemblyInfo.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\ref\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.pdb
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\appsettings.json
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Karen.exe
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Karen.deps.json
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Karen.runtimeconfig.json
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Karen.runtimeconfig.dev.json
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\ref\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Karen.pdb
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Karen.Views.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Karen.Views.pdb
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Dapper.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.Views.pdb
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CopyComplete
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\Karen\obj\Debug\net5.0\Karen.genruntimeconfig.cache
+D:\Karen\Karen\obj\Debug\net5.0\Karen.csproj.AssemblyReference.cache
+D:\Karen\Karen\obj\Debug\net5.0\Karen.GeneratedMSBuildEditorConfig.editorconfig
+D:\Karen\Karen\obj\Debug\net5.0\Karen.AssemblyInfoInputs.cache
+D:\Karen\Karen\obj\Debug\net5.0\Karen.AssemblyInfo.cs
+D:\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CoreCompileInputs.cache
+D:\Karen\Karen\obj\Debug\net5.0\Karen.MvcApplicationPartsAssemblyInfo.cache
+D:\Karen\Karen\obj\Debug\net5.0\Karen.RazorAssemblyInfo.cache
+D:\Karen\Karen\obj\Debug\net5.0\Karen.RazorAssemblyInfo.cs
+D:\Karen\Karen\obj\Debug\net5.0\scopedcss\bundle\Karen.styles.css
+D:\Karen\Karen\obj\Debug\net5.0\staticwebassets\Karen.StaticWebAssets.Manifest.cache
+D:\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.input.cache
+D:\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.output.cache
+D:\Karen\Karen\obj\Debug\net5.0\Karen.RazorCoreGenerate.cache
+D:\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Karen\Karen\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Karen\Karen\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Karen\Karen\obj\Debug\net5.0\Karen.RazorTargetAssemblyInfo.cache
+D:\Karen\Karen\obj\Debug\net5.0\Karen.RazorTargetAssemblyInfo.cs
+D:\Karen\Karen\obj\Debug\net5.0\Karen.dll
+D:\Karen\Karen\obj\Debug\net5.0\refint\Karen.dll
+D:\Karen\Karen\obj\Debug\net5.0\Karen.pdb
+D:\Karen\Karen\bin\Debug\net5.0\appsettings.Development.json
+D:\Karen\Karen\bin\Debug\net5.0\appsettings.json
+D:\Karen\Karen\bin\Debug\net5.0\Karen.StaticWebAssets.xml
+D:\Karen\Karen\bin\Debug\net5.0\Karen.exe
+D:\Karen\Karen\bin\Debug\net5.0\Karen.deps.json
+D:\Karen\Karen\bin\Debug\net5.0\Karen.runtimeconfig.json
+D:\Karen\Karen\bin\Debug\net5.0\Karen.runtimeconfig.dev.json
+D:\Karen\Karen\bin\Debug\net5.0\Karen.dll
+D:\Karen\Karen\bin\Debug\net5.0\Karen.pdb
+D:\Karen\Karen\bin\Debug\net5.0\Karen.Views.dll
+D:\Karen\Karen\bin\Debug\net5.0\Karen.Views.pdb
+D:\Karen\Karen\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\Karen\Karen\bin\Debug\net5.0\Dapper.dll
+D:\Karen\Karen\bin\Debug\net5.0\Google.Protobuf.dll
+D:\Karen\Karen\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\Karen\Karen\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\Karen\Karen\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\Karen\Karen\bin\Debug\net5.0\MySql.Data.dll
+D:\Karen\Karen\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\Karen\Karen\bin\Debug\net5.0\ZstdNet.dll
+D:\Karen\Karen\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Karen\Karen\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Karen\Karen\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Karen\Karen\obj\Debug\net5.0\Karen.Views.pdb
+D:\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CopyComplete
+D:\Karen\Karen\obj\Debug\net5.0\Karen.genruntimeconfig.cache
+D:\Karen\Karen\obj\Debug\net5.0\ref\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\appsettings.json
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Karen.exe
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Karen.deps.json
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Karen.runtimeconfig.json
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Karen.runtimeconfig.dev.json
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\ref\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Karen.pdb
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Karen.Views.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Karen.Views.pdb
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Dapper.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.csproj.AssemblyReference.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.AssemblyInfoInputs.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.AssemblyInfo.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CoreCompileInputs.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.RazorAssemblyInfo.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.RazorAssemblyInfo.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\staticwebassets\Karen.StaticWebAssets.Manifest.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\staticwebassets\Karen.StaticWebAssets.xml
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\scopedcss\bundle\Karen.styles.css
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.input.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.output.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.RazorCoreGenerate.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.RazorTargetAssemblyInfo.cache
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.RazorTargetAssemblyInfo.cs
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.Views.pdb
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CopyComplete
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\ref\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.pdb
+C:\Users\despe\Desktop\Новая папка (2)\Karen\Karen\obj\Debug\net5.0\Karen.genruntimeconfig.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.csproj.AssemblyReference.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.AssemblyInfoInputs.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.AssemblyInfo.cs
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CoreCompileInputs.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorAssemblyInfo.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorAssemblyInfo.cs
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\staticwebassets\Karen.StaticWebAssets.Manifest.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\staticwebassets\Karen.StaticWebAssets.xml
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\scopedcss\bundle\Karen.styles.css
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.input.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.output.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorCoreGenerate.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorTargetAssemblyInfo.cache
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorTargetAssemblyInfo.cs
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\ref\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.pdb
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\appsettings.json
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Karen.exe
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Karen.deps.json
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Karen.runtimeconfig.json
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Karen.runtimeconfig.dev.json
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\ref\Karen.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Karen.pdb
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Karen.Views.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Karen.Views.pdb
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Dapper.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.Views.pdb
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.csproj.CopyComplete
+C:\Users\despe\Desktop\Новая папка (2)\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.genruntimeconfig.cache
