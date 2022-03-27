@@ -32,5 +32,13 @@ namespace Karen.Models.Repositories
             _db_connection.Close();
             return product;
         }
+        public Product GetById(long id)
+        {
+            Product product = new Product();
+            _db_connection.Open();
+            product = SqlMapper.Query<Product>(_db_connection,"SELECT * From products WHERE product_id =@id", new { id = id }).FirstOrDefault();
+            _db_connection.Close();
+            return product;
+        }
     }
 }

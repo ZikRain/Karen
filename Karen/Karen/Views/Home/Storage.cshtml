@@ -1,0 +1,35 @@
+﻿@using System.Collections.Generic;
+@using Karen.Models.Entities
+@model List<Product>
+    <div>
+        <table>
+        @{
+            for(int i = 0; i < 26; i++)
+            {
+                <tr>
+                @for(int j = 0; j < 30; j++ )
+                {
+                    <th>        
+                            @{
+                                var item = Model.Where(t=>t.product_place1==i+1 && t.product_place2==j+1).FirstOrDefault();
+                                if (item == null || item.product_id == 0)
+                                {
+                                    <a >
+                                    Нет
+                                    </a> 
+                                }
+                                else
+                                {
+                                   @Html.ActionLink(@item.product_place1+","+@item.product_place2,"ViewProduct","Home",new{id=item.product_id})
+                                }
+                            }
+                    
+                    
+                    </th>
+                }
+                
+                </tr>
+            }
+         }
+         </table>
+    </div>

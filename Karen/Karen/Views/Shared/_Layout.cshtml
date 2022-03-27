@@ -24,9 +24,32 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                       
+                        @if (User.Identity.IsAuthenticated)
+                        {  
+                            @if (User.Claims.FirstOrDefault(x=>x.Type=="Type").Value=="Worker")
+                            {
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Work">Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Storage">Storage</a>
+                                </li>
+                            }
+                            <a href="/User/SignOut" >Выйти</a>
+                        }
+                        else
+                        {
+                            <a id="user-signin" href="/User/SignInPage" title="Link">Войти</a>
+
+                            <a id="user-registration" href="/User/RegistrationPage" title="Link">Зарегестрироваться</a>
+                        }
+
                     </ul>
                 </div>
             </div>
+
         </nav>
     </header>
     <div class="container">
@@ -37,12 +60,13 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - Karen - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2022 - VasyaPupkin - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/Authorization.js" asp-append-version="true"></script>
+    <script src="~/js/Registration.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

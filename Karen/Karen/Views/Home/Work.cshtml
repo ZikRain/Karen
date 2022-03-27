@@ -1,0 +1,59 @@
+﻿@using Karen.Models.Entities
+@{
+    ViewData["Title"] = "Work Page";
+}
+@model List<User>
+<div class="container-worker">
+    <a>Справочная таблица всех зарегестрированных пользователей</a>
+    <table class="containerworker">
+        <tr>
+            <th>Id</th>
+            <th>Login</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Отчество</th>
+        </tr>
+        @foreach (var t in Model)
+        {
+        <tr>
+            <td>@t.user_id</td>
+            <td>@t.user_login</td>
+            <td>@(!String.IsNullOrWhiteSpace(t.user_surname) ? t.user_surname : "Нет")</td>
+            <td>@(!String.IsNullOrWhiteSpace(t.user_name) ? t.user_name : "Нет")</td>
+            <td>@(!String.IsNullOrWhiteSpace(t.user_patronymic) ? t.user_patronymic : "Нет")</td>
+        </tr>
+        }
+    </table>
+</div>
+
+<div class="numbers">
+    <div class="row pb-3" id="Contacts">
+        <div class="col-md-4 col-sm-6 col-xs-6 txt">
+            +7(990)192-00-00 - Руководитель магизина в городе Краснодар<br><br><br>+7(991)291-00-00 - Директор сети магазинов<br>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 txt">
+            +7(990)193-10-00 - Пупкин Василий, менеджер утренней смены<br><br><br>+7(991)191-20-00 - Пупа Васькин, менеджер дневной смены<br><br><br>+7(991)191-20-00 - Вася Васькин, менеджер вечерней смены<br>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 txt">
+            Пн-Пт: 09:00 - 18:00<br>Сб: 09:00 - 12:00 (UTC +08:00)
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="col-md-3 col-sm-12 col-xs-12" id="Education">
+    <div class="fashki">
+        <a href="https://vk.com/mebel23"><img src="https://e7.pngegg.com/pngimages/122/199/png-clipart-computer-icons-vkontakte-vk-angle-text.png" width="50" height="50" alt="вк"></a>
+        <a href="https://twitter.com/mebel23"><img src="https://flyclipart.com/thumb2/twitter-icon-468453.png" width="50" height="50" alt="твитер"></a>
+        <a href="https://www.instagram.com/mebel23/"><img src="https://www.clipartmax.com/png/middle/76-761038_facebook-icon-instagram.png" width="50" height="50" alt="вк"></a>
+        <div class="col-md-5 col-sm-12 col-xs-12 txt">
+            <ins>Magazin@Mebel23.com</ins>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" />

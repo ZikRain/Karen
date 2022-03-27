@@ -49,7 +49,35 @@ namespace Karen.Controllers
             
             
         }
-       
+        public IActionResult Work()
+        {
+            using (UserRepository userRepository = new UserRepository(_configuration))
+            {
+                List<User> user = userRepository.GetAll();
+
+                return View(user);
+            }
+        }
+        public IActionResult Storage()
+        {
+            using (ProductRepository rep = new ProductRepository(_configuration))
+            {
+                List<Product> product = rep.GetAll();
+
+                return View(product);
+            }
+        }
+        public IActionResult ViewProduct(long id)
+        {
+            using(ProductRepository rep = new ProductRepository(_configuration))
+            {
+                Product product = rep.GetById(id);
+                return View(product);
+            }
+           
             
+                
+        }
+
     }
 }
