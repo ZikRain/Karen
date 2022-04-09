@@ -1,0 +1,55 @@
+﻿@using Karen.Models.Entities
+@{
+    ViewData["Title"] = "Catalog Policy";
+}
+@model List<Product>
+<head>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/carts.js"></script>
+     
+</head>
+
+<div class="container content">
+     <div class="row">
+          <div class="col-md-4">Категория
+            <div class="list-group">
+            @Html.ActionLink("Вcе","Catalog","Home")
+            @Html.ActionLink("Диваны","Catalog","Home", new {type=1}) 
+            @Html.ActionLink("Кровать","Catalog","Home", new {type=2})
+            @Html.ActionLink("Шкаф","Catalog","Home", new {type=3})
+            @Html.ActionLink("Стол","Catalog","Home", new {type=4})
+            </div>
+          </div>
+  
+            @{
+                
+                 foreach (Product item in Model)
+                 {
+                      <div class="col-md-12" >
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="product" data-productid="@item.product_id">
+                                    <div class="product-img">
+                                    <a href="#"><img src="@("/Images/"+item.product_image)" alt=""></a>
+                                    </div>
+                                    <p class="product-title">
+                                    <a href="#">@item.product_name</a>
+                                    </p>
+                                    <p class="product-price">Price: €@item.product_price</p>
+                                @if(!item.incart){
+                                <input class="btn-add-cart" type="button" value="Добавить в корзину" >
+                                    
+                                }
+                                </div>
+                            </div>
+                         </div>
+                       </div>
+                 }   
+            }
+            
+             
+     </div>
+ </div>
+
+
+ <link rel="stylesheet" href="~/css/site.css" />

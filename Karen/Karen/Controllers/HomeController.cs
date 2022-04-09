@@ -30,26 +30,72 @@ namespace Karen.Controllers
             return View();
         }
 
-        public IActionResult Privacy(int type = 0)
+        public IActionResult Catalog(int type = 0)
         {
-            List<Product> item = new List<Product>();
-            if(type == 0)
+            using (UserRepository userRepository = new UserRepository(_configuration))
+            using (ProductRepository productRepository = new ProductRepository(_configuration))
+            using (CartItemsRepository cartItemsRepository = new CartItemsRepository(_configuration))
+            using (CartRepository cartRepository = new CartRepository(_configuration))
             {
-                ProductRepository rep = new ProductRepository(_configuration);
-                item = rep.GetAll();
-                return View(item);
+                User user = userRepository.SearchLogin(User.Identity.Name);
+                Cart cart = cartRepository.GetByUserId(user.user_id);
+                cart.Items = cartItemsRepository.GetByCartId(cart.cart_id);
+
+                List<Product> item = new List<Product>();
+                if(type == 0)
+                {
+                    ProductRepository rep = new ProductRepository(_configuration);
+                    item = rep.GetAll();
+                    foreach(var t in item)
+                    {
+                        if (cart.Items.FirstOrDefault(x => x.cartitem_productid == t.product_id) != null) t.incart = true;
+                    }
+                    return View(item);
+                }
+                else
+                {
+                    ProductRepository rep = new ProductRepository(_configuration);
+                    item = rep.GetByType(type);
+                    foreach (var t in item)
+                    {
+                        if (cart.Items.FirstOrDefault(x => x.cartitem_productid == t.product_id) != null) t.incart = true;
+                    }
+                    return View(item);
+                }
+           
             }
-            else
+
+
+        }
+        public IActionResult Work()
+        {
+            using (UserRepository userRepository = new UserRepository(_configuration))
             {
-                ProductRepository rep = new ProductRepository(_configuration);
-                item = rep.GetByType(type);
-                return View(item);
+                List<User> user = userRepository.GetAll();
+
+                return View(user);
+            }
+        }
+        public IActionResult Storage()
+        {
+            using (ProductRepository rep = new ProductRepository(_configuration))
+            {
+                List<Product> product = rep.GetAll();
+
+                return View(product);
+            }
+        }
+        public IActionResult ViewProduct(long id)
+        {
+            using(ProductRepository rep = new ProductRepository(_configuration))
+            {
+                Product product = rep.GetById(id);
+                return View(product);
             }
            
             
-            
+                
         }
-       
-            
+
     }
 }

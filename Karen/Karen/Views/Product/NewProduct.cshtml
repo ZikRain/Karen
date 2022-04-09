@@ -1,0 +1,76 @@
+﻿@using Karen.Models.Enums;
+@model Karen.Models.Entities.Product
+
+@{
+    ViewData["Title"] = "View";
+    var a = new ProductType();
+
+}
+<head>
+    <script src="~/js/AddNew.js"></script>
+</head>
+<h1>Добавление товара</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="product_name" class="control-label">Название</label>
+                <input asp-for="product_name" class="form-control" id="name"/>
+                <span asp-validation-for="product_name" class="text-danger" id="name-error"></span>
+            </div>
+            
+            <div class="form-group">
+                <select id="type">
+                @foreach(var item in Enum.GetValues(typeof(ProductType)))
+                {
+                    <option value="@((int)item)">@item</option>
+                }
+                </select>
+                
+            </div>
+
+
+                <label asp-for="product_image" class="control-label">Изображение</label>
+                <input asp-for="product_image" class="form-control" type="file" id="image"/>
+                <span asp-validation-for="product_image" class="text-danger"></span>
+
+
+            <div class="form-group">
+                <label asp-for="product_count" class="control-label">Кол-во</label>
+                <input asp-for="product_count" class="form-control" id="count"/>
+                <span asp-validation-for="product_count" class="text-danger" id="count-error"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="product_place1" class="control-label">Место 1</label>
+                <input asp-for="product_place1" class="form-control" id="place1"/>
+                <span asp-validation-for="product_place1" class="text-danger" id="place1-error"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="product_place2" class="control-label">Место 2 </label>
+                <input asp-for="product_place2" class="form-control" id="place2"/>
+                <span asp-validation-for="product_place2" class="text-danger" id="place2-error"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="product_price" class="control-label">Цена</label>
+                <input asp-for="product_price" class="form-control" id="price"/>
+                <span asp-validation-for="product_price" class="text-danger" id="price-error"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Создать" class="btn btn-primary" id="submit" onclick="additem()"/>
+            </div>
+        
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" asp-controller="Home">На главную</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script src="~/js/AddNew.js"></script>

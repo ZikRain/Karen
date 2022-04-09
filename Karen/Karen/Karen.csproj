@@ -5,8 +5,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Home\Cart.cs\**" />
+    <Compile Remove="wwwroot\js\cart.js\**" />
+    <Content Remove="Views\Home\Cart.cs\**" />
+    <Content Remove="wwwroot\js\cart.js\**" />
+    <EmbeddedResource Remove="Views\Home\Cart.cs\**" />
+    <EmbeddedResource Remove="wwwroot\js\cart.js\**" />
+    <None Remove="Views\Home\Cart.cs\**" />
+    <None Remove="wwwroot\js\cart.js\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="MySql.Data" Version="8.0.28" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,40 @@
+﻿@using Karen.Models.Entities
+@model Cart
+
+<head>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/js/mycart.js"></script>
+</head>
+
+    @if (Model.Items.Count>0)
+    {
+        <table>
+            <tr>
+                <th>Название</th>
+                <th>Количество</th>
+                <th>Цена</th>
+                <th>Сумма</th>
+            </tr>
+            @foreach(var t in Model.Items)
+            {
+                <tr class="product" data-cartitemid="@t.cartitem_id">
+                    <th>@t.cartitem_name</th>
+                    <th>@t.cartitem_quantity</th>
+                    <th>@t.cartitem_price</th>
+                    <th>@t.amount</th>
+                    <th><input type="button" class="btn-plus" value="+"></th>
+                    <th><input type="button" class="btn-minus" value="-"></th>
+                    <th><input type="button" class="btn-delete" value="Удалить"></th>
+                </tr>
+            }
+        </table>
+        <br/>
+        <p>Кол-во товаров: @Model.Count</p>
+        <p>Сумма заказа: @Model.Total</p>
+        <input type="button" onclick="AddOrder()" value="Сделать заказ">
+    }
+    else
+    {
+        <h1>Ваша корзина пуста!</h1>
+    }
+

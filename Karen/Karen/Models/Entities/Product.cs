@@ -9,7 +9,9 @@ namespace Karen.Models.Entities
         public ProductType  product_type { get; set; }
         public string product_image { get; set; } 
         public int product_count { get; set; }
-        public string product_place { get; set; }
+        public int product_place1 { get; set; }
+        public int product_place2 { get; set; }
         public decimal product_price { get; set; }
+        public bool incart { get; set; } = false;
     }
 }
