@@ -31,6 +31,7 @@
                             {
 
                                 <li class="nav-item">
+<<<<<<< HEAD
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Work">Работники</a>
                                 </li>
                                 <li class="nav-item">
@@ -56,6 +57,21 @@
                                     <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="RegistrationPage">Зарегестрироваться</a>
                                 </li>
 
+=======
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Work">Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Storage">Storage</a>
+                                </li>
+                            }
+                            <a href="/User/SignOut" >Выйти</a>
+                        }
+                        else
+                        {
+                            <a id="user-signin" href="/User/SignInPage" title="Link">Войти</a>
+
+                            <a id="user-registration" href="/User/RegistrationPage" title="Link">Зарегестрироваться</a>
+>>>>>>> f6262419e0189b5c8d9c95c58611153adaf07202
                         }
 
                     </ul>
@@ -72,7 +88,11 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
+<<<<<<< HEAD
             &copy; 2022 - VasyaPupkin - <a asp-area="" asp-controller="Home" asp-action="Catalog">Catalog</a>
+=======
+            &copy; 2022 - VasyaPupkin - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+>>>>>>> f6262419e0189b5c8d9c95c58611153adaf07202
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

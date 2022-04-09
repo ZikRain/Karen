@@ -330,6 +330,10 @@ D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.input.cach
 D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.output.cache
 D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorCoreGenerate.cache
 D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+<<<<<<< HEAD
+=======
+D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+>>>>>>> f6262419e0189b5c8d9c95c58611153adaf07202
 D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Work.cshtml.g.cs
 D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -536,6 +540,10 @@ E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.input.cach
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.TagHelpers.output.cache
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.RazorCoreGenerate.cache
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+<<<<<<< HEAD
+=======
+E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+>>>>>>> f6262419e0189b5c8d9c95c58611153adaf07202
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Storage.cshtml.g.cs
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\ViewProduct.cshtml.g.cs
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Work.cshtml.g.cs
@@ -554,9 +562,12 @@ E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\refint\Karen.dll
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.pdb
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Karen.genruntimeconfig.cache
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\ref\Karen.dll
+<<<<<<< HEAD
 D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Product\NewProduct.cshtml.g.cs
 D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Cart\Cart.cshtml.g.cs
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Cart\Cart.cshtml.g.cs
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Product\NewProduct.cshtml.g.cs
 E:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Catalog.cshtml.g.cs
 D:\Karen\KarenNew\Karen\Karen\Karen\obj\Debug\net5.0\Razor\Views\Home\Catalog.cshtml.g.cs
+=======
+>>>>>>> f6262419e0189b5c8d9c95c58611153adaf07202

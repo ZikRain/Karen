@@ -37,6 +37,7 @@ namespace Karen.Models.Repositories
         {
             Product product = new Product();
             _db_connection.Open();
+<<<<<<< HEAD
             product = SqlMapper.Query<Product>(_db_connection,"SELECT * FROM products WHERE product_id =@id", new { id = id }).FirstOrDefault();
             _db_connection.Close();
             return product;
@@ -52,5 +53,11 @@ namespace Karen.Models.Repositories
                     "SELECT * FROM products WHERE product_id= LAST_INSERT_ID()", new { name, count, place1, price, type, image, place2 })) { return item.ReadFirstOrDefault<Product>(); };
             }
         }
+=======
+            product = SqlMapper.Query<Product>(_db_connection,"SELECT * From products WHERE product_id =@id", new { id = id }).FirstOrDefault();
+            _db_connection.Close();
+            return product;
+        }
+>>>>>>> f6262419e0189b5c8d9c95c58611153adaf07202
     }
 }
