@@ -22,37 +22,7 @@ namespace Karen.Models.Repositories
             
         }
 
-        public User SearchLogin(string login)
-        {
-            _db_connection.Open();
 
-            User user = SqlMapper.Query<User>(_db_connection, "SELECT * FROM users WHERE user_login = @login", new { login = login }).FirstOrDefault();
-            _db_connection.Close();
-
-            return user;
-        }
-
-        public User AddNewUser(string login, string password)
-        {
-            using (_db_connection)
-            {
-                _db_connection.Open();
-
-                using(var item =  SqlMapper.QueryMultiple(_db_connection, "INSERT INTO users (user_login,user_password,user_type) VALUES (@user_login,@user_password,1) ; " +
-                    "SELECT * FROM users WHERE user_id= LAST_INSERT_ID()", new { user_login = login, user_password = password })){ return item.ReadFirstOrDefault<User>(); };
-            }
-        }
-        public List<User> GetAll()
-        {
-            _db_connection.Open();
-
-            List<User> user = SqlMapper.Query<User>(_db_connection, "SELECT * FROM users").ToList();
-
-            _db_connection.Close();
-            return user;
-        }
-<<<<<<< HEAD
-=======
 
         public User SearchLogin(string login)
         {
@@ -80,7 +50,7 @@ namespace Karen.Models.Repositories
             _db_connection.Close();
             return user;
         }
->>>>>>> f6262419e0189b5c8d9c95c58611153adaf07202
+
         public User SearchLogPas(string login, string password)
         {
             _db_connection.Open();

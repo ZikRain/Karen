@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Karen\\KarenNew\\Karen\\Karen\\Karen\\Karen.csproj": {}
+    "E:\\Git\\Karen\\Karen\\Karen\\Karen.csproj": {}
   },
   "projects": {
-    "E:\\Karen\\KarenNew\\Karen\\Karen\\Karen\\Karen.csproj": {
+    "E:\\Git\\Karen\\Karen\\Karen\\Karen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Karen\\KarenNew\\Karen\\Karen\\Karen\\Karen.csproj",
+        "projectUniqueName": "E:\\Git\\Karen\\Karen\\Karen\\Karen.csproj",
         "projectName": "Karen",
-        "projectPath": "E:\\Karen\\KarenNew\\Karen\\Karen\\Karen\\Karen.csproj",
-        "packagesPath": "C:\\Users\\despe\\.nuget\\packages\\",
-        "outputPath": "E:\\Karen\\KarenNew\\Karen\\Karen\\Karen\\obj\\",
+        "projectPath": "E:\\Git\\Karen\\Karen\\Karen\\Karen.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "E:\\Git\\Karen\\Karen\\Karen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\despe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
