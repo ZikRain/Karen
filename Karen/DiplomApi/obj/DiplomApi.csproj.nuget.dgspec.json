@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\Github\\Karen\\Karen\\Karen\\Karen.csproj": {}
+    "C:\\Users\\admin\\Desktop\\Github\\Karen\\Karen\\DiplomApi\\DiplomApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\Github\\Karen\\Karen\\Karen\\Karen.csproj": {
+    "C:\\Users\\admin\\Desktop\\Github\\Karen\\Karen\\DiplomApi\\DiplomApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Github\\Karen\\Karen\\Karen\\Karen.csproj",
-        "projectName": "Karen",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Github\\Karen\\Karen\\Karen\\Karen.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Github\\Karen\\Karen\\DiplomApi\\DiplomApi.csproj",
+        "projectName": "DiplomApi",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Github\\Karen\\Karen\\DiplomApi\\DiplomApi.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Github\\Karen\\Karen\\Karen\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Github\\Karen\\Karen\\DiplomApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,17 +46,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Dapper": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[2.0.123, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.0.28, )"
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
