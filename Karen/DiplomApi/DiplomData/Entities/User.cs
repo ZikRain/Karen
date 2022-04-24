@@ -11,5 +11,6 @@ namespace DiplomData.Entities
         public string user_surname { get; set; }
         public string user_patronymic { get; set; }
         public UserType user_type { get; set; }
+        public string user_telephone { get; set; }
     }
 }

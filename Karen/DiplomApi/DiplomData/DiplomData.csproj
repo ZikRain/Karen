@@ -13,8 +13,6 @@
     <None Remove="Dapper" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Repositories\" />
     <Folder Include="Enums\" />
   </ItemGroup>
   <ItemGroup>

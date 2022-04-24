@@ -11,9 +11,6 @@
     <None Remove="Swashbuckle.AspNetCore.Swagger" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\DiplomData\DiplomData.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>

@@ -3,6 +3,7 @@ using DiplomData.Entities;
 using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace DiplomData.Repositories
 {
@@ -33,13 +34,51 @@ namespace DiplomData.Repositories
             return user;
         }
 
-        public void AddNewUser(string login, string password)
+        public async Task<User> Update(User user)
         {
-            _db_connection.Open();
+            using (_db_connection)
+            {
+                _db_connection.Open();
 
-            SqlMapper.Execute(_db_connection, "INSERT INTO users (user_login,user_password,user_type) VALUES (@user_login,@user_password,1)", new {user_login = login, user_password = password});
-            _db_connection.Close();
+                using (var items = await SqlMapper.QueryMultipleAsync(_db_connection,
+                "UPDATE users SET user_login = @user_login, user_password = @user_password, user_name = @user_name, user_surname = @user_surname, user_patronymic = @user_patronymic, user_type = @user_type, user_telephone = @user_telephone WHERE user_id = @user_id; select * from users where user_id = @user_id;",
+                user
+                ))
+                {
+                    return await items.ReadFirstOrDefaultAsync<User>();
+                }
+            }
         }
+
+        public async Task<User> Create(User user)
+        {
+            using (_db_connection)
+            {
+                _db_connection.Open();
+
+                using (var items = await SqlMapper.QueryMultipleAsync(_db_connection,
+                "insert into users set user_login = @user_login, user_password = @user_password, user_name = @user_name, user_surname = @user_surname, user_patronymic = @user_patronymic, user_type = @user_type, user_telephone = @user_telephone; select * from users where user_id = LAST_INSERT_ID();",
+                user
+                ))
+                {
+                    return await items.ReadFirstOrDefaultAsync<User>();
+                }
+            }
+        }
+
+        public async Task<User> GetByTicket(string ticket_raw)
+        {
+            using (_db_connection)
+            {
+                _db_connection.Open();
+
+                return await SqlMapper.QueryFirstOrDefaultAsync<User>(_db_connection,
+                "select * from users join tickets on (user_id = ticket_user_id) where ticket_raw = @ticket_raw;",
+                new { ticket_raw }
+                );
+            }
+        }
+
         public List<User> GetAll()
         {
             _db_connection.Open();
@@ -50,12 +89,14 @@ namespace DiplomData.Repositories
             return user;
         }
 
-        public User SearchLogPas(string login, string password)
+        public async Task<User> GetByUserAndPassword(string login, string password)
         {
-            _db_connection.Open();
-            User user = SqlMapper.Query<User>(_db_connection, "SELECT * FROM users WHERE user_login=@login AND user_password = @password", new { password = password, login = login }).FirstOrDefault();
-            _db_connection.Close();
-            return user;
+            using (_db_connection)
+            {
+                return await SqlMapper.QueryFirstOrDefaultAsync<User>(_db_connection, 
+                    "SELECT * FROM users WHERE user_login = @login AND user_password = @password", 
+                    new { password = password, login = login });
+            }
         }
         public void Update(string password, string login, string oldPassword, long id)
         {
