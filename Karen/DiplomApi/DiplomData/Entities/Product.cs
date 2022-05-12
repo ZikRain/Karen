@@ -6,7 +6,7 @@ namespace DiplomData.Entities
     {
         public long product_id { get; set; }
         public string product_name { get; set;}
-        public ProductType  product_type { get; set; }
+        public long product_category_id { get; set; }
         public string product_image { get; set; } 
         public int product_count { get; set; }
         public int product_place1 { get; set; }

@@ -58,6 +58,8 @@ namespace DiplomApi
 
             app.UseAuthorization();
 
+            app.UseStaticFiles();
+
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>

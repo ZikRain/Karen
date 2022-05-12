@@ -29,22 +29,48 @@ namespace DiplomApi.Controllers
 
         [HttpGet]
         [Route("[action]")]
-        public async Task<IEnumerable<Entities.Product>> List()
+        public async Task<IEnumerable<Entities.Category>> List()
         {
+            using (CategoryRepository categoryRepository = new CategoryRepository(_configuration))
             using (ProductRepository productRepository = new ProductRepository(_configuration))
             {
                 var products = await productRepository.GetAll();
 
-                return products.Select(x=> new Entities.Product()
+                var categories = await categoryRepository.List();
+
+                return categories.Select(x=> new Entities.Category()
                 {
-                    ID = x.product_id,
-                    Count = x.product_count,
-                    Image = x.product_image,
-                    Name = x.product_name,
-                    Place1 = x.product_place1,
-                    Plcae2 = x.product_place2,
-                    Price = x.product_price,
-                    Type = x.product_type
+                    ID = x.category_id,
+                    Name = x.category_name,
+                    Products = products.Where(c=>c.product_category_id == x.category_id).Select(c=> new Entities.Product()
+                    {
+                        ID = c.product_id,
+                        Count = c.product_count,
+                        Image = $"https://www.meme-arsenal.com/memes/20a12ee075efafbc11e355298f607535.jpg",
+                        Name = c.product_name,
+                        Place1 = c.product_place1,
+                        Plcae2 = c.product_place2,
+                        Price = c.product_price,
+                        CategoryID = x.category_id,
+                    })
+                });
+            }
+        }
+
+        [HttpGet]
+        [Route("[action]")]
+        public async Task<IEnumerable<Entities.Option>> GetOptions([FromQuery] long product_id)
+        {
+            using (OptionRepository optionRepository = new OptionRepository(_configuration))
+            {
+                var options = await optionRepository.ListByProduct(product_id);
+
+                return options.Select(x => new Entities.Option()
+                {
+                    ID = x.option_id,
+                    ProductID = x.option_product_id,
+                    Name = x.option_name,
+                    Price = x.option_price
                 });
             }
         }

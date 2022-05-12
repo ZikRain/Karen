@@ -7,7 +7,7 @@ namespace DiplomApi.Entities
     {
         public long ID { get; set; }
         public string Name { get; set; }
-        public ProductType Type { get; set; }
+        public long CategoryID { get; set; }
         public string Image { get; set; }
         public int Count { get; set; }
         public int Place1 { get; set; }

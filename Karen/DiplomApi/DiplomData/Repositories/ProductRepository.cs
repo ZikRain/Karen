@@ -17,6 +17,7 @@ namespace DiplomData.Repositories
         {
 
         }
+
         public async Task<IEnumerable<Product>> GetAll()
         {
             using (_db_connection)
@@ -27,11 +28,11 @@ namespace DiplomData.Repositories
             }
         }
 
-        public List<Product> GetByType(int type)
+        public List<Product> GetByCategory(long product_category_id)
         {
             List<Product> product = new List<Product>();
             _db_connection.Open();
-            product = SqlMapper.Query<Product>(_db_connection, "SELECT * FROM products WHERE product_type = @type ", new { type = type }).ToList();
+            product = SqlMapper.Query<Product>(_db_connection, "SELECT * FROM products WHERE product_category_id = @product_category_id ", new { product_category_id = product_category_id }).ToList();
             _db_connection.Close();
             return product;
         }
@@ -43,15 +44,15 @@ namespace DiplomData.Repositories
             _db_connection.Close();
             return product;
         }
-        public Product AddNewProduct(string name, int type,string image,  int count, int place1, int place2, decimal price)
+        public Product AddNewProduct(string name, long product_category_id, string image,  int count, int place1, int place2, decimal price)
         {
             using (_db_connection)
             {
                 _db_connection.Open();
 
-                using (var item = SqlMapper.QueryMultiple(_db_connection, "INSERT INTO products (product_name, product_count, product_place1, product_price, product_type, product_image, product_place2) VALUES" +
-                " (@name,@count,@place1,@price,@type,@image,@place2); " +
-                    "SELECT * FROM products WHERE product_id= LAST_INSERT_ID()", new { name, count, place1, price, type, image, place2 })) { return item.ReadFirstOrDefault<Product>(); };
+                using (var item = SqlMapper.QueryMultiple(_db_connection, "INSERT INTO products (product_name, product_count, product_place1, product_price, product_category_id, product_image, product_place2) VALUES" +
+                " (@name,@count,@place1,@price,@product_category_id,@image,@place2); " +
+                    "SELECT * FROM products WHERE product_id= LAST_INSERT_ID()", new { name, count, place1, price, product_category_id, image, place2 })) { return item.ReadFirstOrDefault<Product>(); };
             }
         }
     }
