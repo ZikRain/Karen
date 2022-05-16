@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiplomApi", "DiplomApi\DiplomApi.csproj", "{E8806211-7229-4A3B-8616-EA0AD52933FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiplomData", "DiplomData\DiplomData.csproj", "{3E88FBF9-B9C9-423A-BC47-82645A685674}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8806211-7229-4A3B-8616-EA0AD52933FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8806211-7229-4A3B-8616-EA0AD52933FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8806211-7229-4A3B-8616-EA0AD52933FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8806211-7229-4A3B-8616-EA0AD52933FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E88FBF9-B9C9-423A-BC47-82645A685674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E88FBF9-B9C9-423A-BC47-82645A685674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E88FBF9-B9C9-423A-BC47-82645A685674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E88FBF9-B9C9-423A-BC47-82645A685674}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E368D824-42CE-44C4-BEC1-58245533F9B4}
+	EndGlobalSection
+EndGlobal
