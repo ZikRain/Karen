@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diplom.Pages.UserInfo"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True" 
+             BackgroundColor="#f0f0f0"
+             Title="ПОЛЬЗОВАТЕЛЬ">
+    
+    <ContentPage.Resources>
+        <Style x:Key="labelStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="0"/>
+        </Style>
+        <Style x:Key="buttonStyle" TargetType="Button">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="BackgroundColor" Value="#4995ed"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+        <Style x:Key="buttonMiniStyle" TargetType="Button">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="BackgroundColor" Value="#2C1C2F"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+        <Style x:Key="frameStyle" TargetType="Frame">
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="HasShadow" Value="{OnPlatform iOS=false}"/>
+            <Setter Property="BorderColor" Value="{OnPlatform iOS=gray}"/>
+            <Setter Property="BackgroundColor" Value="#f3f3f3"/>
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+        </Style>
+        <Style x:Key="entryStyle" TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="#f3f3f3"/>
+            <Setter Property="PlaceholderColor" Value="#0f0f0f"/>
+            <Setter Property="TextColor" Value="#000"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <StackLayout x:Name="info">
+                <Label x:Name="Title" Style="{StaticResource labelStyle}" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Ф.И.О." Style="{StaticResource labelStyle}"/>
+                    <Label x:Name="fio" Style="{StaticResource labelStyle}"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Тел." Style="{StaticResource labelStyle}"/>
+                    <Label x:Name="telephone" Style="{StaticResource labelStyle}"/>
+                </StackLayout>
+                <Button Text="Выйти из аккаунта" Style="{StaticResource buttonStyle}" x:Name="SignOut" Clicked="SignOut_Clicked"/>
+                <CollectionView x:Name="collection" SelectionMode="Single" SelectionChanged="collection_SelectionChanged">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout ItemSpacing="10" Orientation="Vertical">
+                        </LinearItemsLayout>
+                    </CollectionView.ItemsLayout>
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup Name="CommonStates">
+                            <VisualState Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="#f3f3f3"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="#f3f3f3"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Style="{StaticResource frameStyle}" Margin="5">
+                                <StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Заказ №" Style="{StaticResource labelStyle}"/>
+                                        <Label Text="{Binding id}" Style="{StaticResource labelStyle}"/>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Cумма:" Style="{StaticResource labelStyle}"/>
+                                        <Label Text="{Binding amount}" Style="{StaticResource labelStyle}"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <Button Text="Изменить данные" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked" />
+            </StackLayout>
+            <StackLayout x:Name="noninfo">
+                <Label Text="Войдите в систему" Style="{StaticResource labelStyle}" FontSize="Large" FontAttributes="Bold"/>
+                <Frame Style="{StaticResource frameStyle}">
+                <Entry x:Name="login_In" Style="{StaticResource entryStyle}" Placeholder="Логин" />
+                </Frame>
+                <Frame Style="{StaticResource frameStyle}">
+                <Entry x:Name="password" Style="{StaticResource entryStyle}" Placeholder="Пароль" IsPassword="True"/>
+                </Frame>
+                <Button Text="Войти" Style="{StaticResource buttonStyle}" x:Name="SignIn" Clicked="SignIn_Clicked" />
+                <Button Text="Зарегестрироваться" Style="{StaticResource buttonStyle}" x:Name="Register" Clicked="Register_Clicked" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

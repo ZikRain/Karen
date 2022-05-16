@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diplom.Pages.ChangeUserInfo"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True" 
+             BackgroundColor="#f0f0f0"
+             Title="Изменение данных">
+
+    <ContentPage.Resources>
+        <Style x:Key="labelStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="VerticalTextAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="buttonStyle" TargetType="Button">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="BackgroundColor" Value="#4995ed"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+        <Style x:Key="buttonMiniStyle" TargetType="Button">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="BackgroundColor" Value="#4995ed"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="WidthRequest" Value="40"/>
+            <Setter Property="HeightRequest" Value="40"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+        </Style>
+        <Style x:Key="frameStyle" TargetType="Frame">
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="HasShadow" Value="{OnPlatform iOS=false}"/>
+            <Setter Property="BorderColor" Value="{OnPlatform iOS=gray}"/>
+            <Setter Property="BackgroundColor" Value="#f3f3f3"/>
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style x:Key="entryStyle" TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="#f3f3f3"/>
+            <Setter Property="PlaceholderColor" Value="#0f0f0f"/>
+            <Setter Property="TextColor" Value="#000"/>
+        </Style>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Style="{StaticResource frameStyle}">
+                <Entry x:Name="name" Style="{StaticResource entryStyle}" Placeholder="Имя" />
+            </Frame>
+            <Frame Style="{StaticResource frameStyle}">
+                <Entry x:Name="surname" Style="{StaticResource entryStyle}" Placeholder="Фамилия" />
+            </Frame>
+            <Frame Style="{StaticResource frameStyle}">
+                <Entry x:Name="patronymic" Style="{StaticResource entryStyle}" Placeholder="Отчество" />
+            </Frame>
+            <Frame Style="{StaticResource frameStyle}">
+                <Entry x:Name="telephone" Style="{StaticResource entryStyle}" Placeholder="+X(XXX)XXX-XX-XX" Keyboard="Numeric">
+                    <Entry.Behaviors>
+                        <xct:MaskedBehavior Mask="+X(XXX)XXX-XX-XX"/>
+                    </Entry.Behaviors>
+                </Entry>
+            </Frame>
+            <Button Text="Сохранить" Clicked="Button_Clicked" Style="{StaticResource buttonStyle}" Margin="5,10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

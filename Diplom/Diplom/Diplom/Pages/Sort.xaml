@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diplom.Pages.Sort"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True" 
+             BackgroundColor="#f0f0f0"
+             Title="СОРТИРОВКА">
+
+    <ContentPage.Resources>
+        <Style x:Key="labelStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="0"/>
+        </Style>
+        <Style x:Key="buttonStyle" TargetType="Button">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="BackgroundColor" Value="#4995ed"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+        <Style x:Key="buttonMiniStyle" TargetType="Button">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="BackgroundColor" Value="#4995ed"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+        <Style x:Key="frameStyle" TargetType="Frame">
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="HasShadow" Value="{OnPlatform iOS=false}"/>
+            <Setter Property="BorderColor" Value="{OnPlatform iOS=gray}"/>
+            <Setter Property="BackgroundColor" Value="#f3f3f3"/>
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <CollectionView x:Name="collection" SelectionMode="None">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="20" Orientation="Vertical">
+                    </LinearItemsLayout>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup Name="CommonStates">
+                                    <VisualState Name="Selected">
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="#f0f0f0"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState Name="Normal">
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="#f0f0f0"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            
+                            <Frame Style="{StaticResource frameStyle}" BackgroundColor="#fcfcfc">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Style="{StaticResource labelStyle}" Text="{Binding name}" HorizontalOptions="StartAndExpand" FontSize="Large"/>
+                                    <Button Text="Перейти" CommandParameter="{Binding .}" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked" HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Button Text="Назад" Clicked="Button_Clicked_1" Style="{StaticResource buttonStyle}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

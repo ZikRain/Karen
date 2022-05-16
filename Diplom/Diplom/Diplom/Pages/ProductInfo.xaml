@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diplom.Pages.ProductInfo"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True" 
+             BackgroundColor="#f0f0f0">
+    <ContentPage.Resources>
+        <Style x:Key="labelStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="VerticalTextAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="buttonStyle" TargetType="Button">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="BackgroundColor" Value="#4995ed"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+        <Style x:Key="buttonMiniStyle" TargetType="Button">
+            <Setter Property="TextColor" Value="#000"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="BackgroundColor" Value="#4995ed"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="WidthRequest" Value="40"/>
+            <Setter Property="HeightRequest" Value="40"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+        </Style>
+        <Style x:Key="frameStyle" TargetType="Frame">
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="HasShadow" Value="{OnPlatform iOS=false}"/>
+            <Setter Property="BorderColor" Value="{OnPlatform iOS=gray}"/>
+            <Setter Property="BackgroundColor" Value="#f3f3f3"/>
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout>
+                <Image x:Name="image"/>
+                <Label Style="{StaticResource labelStyle}" x:Name="name" FontSize="Large"/>
+                <Label Style="{StaticResource labelStyle}" x:Name="price" FontSize="Large"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand">
+                <StackLayout Orientation="Horizontal" x:Name="group_buttons" IsVisible="false">
+                    <Button Text="-" CommandParameter="{Binding .}" x:Name="button_minus" Clicked="button_minus_Clicked" Style="{StaticResource buttonMiniStyle}"/>
+                    <Label Text="{Binding Quantity}" x:Name="quantity" PropertyChanged="quantity_PropertyChanged" Style="{StaticResource labelStyle}"/>
+                    <Button Text="+" CommandParameter="{Binding .}" x:Name="button_plus" Clicked="button_plus_Clicked" Style="{StaticResource buttonMiniStyle}"/>
+                </StackLayout>
+                <Button Style="{StaticResource buttonStyle}" Text="В корзину"  x:Name="button_add" Clicked="button_add_Clicked" IsVisible="true"/>
+            </StackLayout>
+            <StackLayout WidthRequest="50" HeightRequest="50"/>
+            
+            <CollectionView x:Name="collection" SelectionMode="None">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="10" Orientation="Vertical">
+                    </LinearItemsLayout>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Margin="10" Padding="10">
+                            <StackLayout Orientation="Horizontal">
+                                <StackLayout>
+                                    <Label Text="{Binding name}" Style="{StaticResource labelStyle}" FontSize="Large"/>
+                                    <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding price}" Style="{StaticResource labelStyle}" FontSize="Large"/>
+                                    <Label Style="{StaticResource labelStyle}" Text="₽" Margin="0,5,5,5" FontSize="Large"/>
+                                </StackLayout>
+                                </StackLayout>
+                                <CheckBox IsChecked="{Binding enable}" PropertyChanged="CheckBox_PropertyChanged" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <BoxView HeightRequest="2" HorizontalOptions="FillAndExpand" BackgroundColor="#000"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
